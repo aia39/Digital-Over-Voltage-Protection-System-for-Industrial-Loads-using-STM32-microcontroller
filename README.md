@@ -1,11 +1,13 @@
 # Over-Voltage-Protection-System-for-Industrial-Loads-using-STM32-microcontroller
 This is repository of our EEE 416 course project. In this repository, we organized our project files including all the necessary codes, simulation and PCB files. 
 
+In this project, the source voltage is stepped down and then rectified to feed into STM's analog pin. Single or multiple thresholds can be set using some calibration methods. If the converted source voltage somehow exceeds the threshold of overvoltage then the STM will send proper digital signal to the driving darlington pair transistor at the load side. Darlington pair forces the relay to trip and disconnects connection between load and overvolteged power supply. By this simple process, we can make it for multiple loads and printing a PCB of it may turn it into a compact circuit protection device.
+
 # Demonstration video
 https://www.youtube.com/watch?v=6UFyhoZj2CA
 
 # Working principle
-TODO
+TODO (see presentation slide for details)
 
 # Contents
 1. Project presentation slide
