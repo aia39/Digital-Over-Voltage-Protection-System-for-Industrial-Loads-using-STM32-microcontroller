@@ -7,7 +7,8 @@ In this project, the source voltage is stepped down and then rectified to feed i
 https://www.youtube.com/watch?v=6UFyhoZj2CA
 
 # Working principle
-TODO (see presentation slide for details)
+(see presentation slide for details)
+![Flowchart of the project](flowchart.jpg)
 
 # Contents
 1. Project presentation slide
